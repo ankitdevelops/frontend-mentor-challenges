@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body
+    class="flex justify-center items-center h-screen bg-[#f2ebe3] p-4 max-w-screen-xl m-auto font-['Montserrat']"
+  >
+    <div class="container">
+      <div
+        class="flex flex-col lg:flex-row items-center m-auto h-[90vh] lg:h-[900px] lg:h-[700px] bg-white rounded-2xl overflow-hidden lg:gap-2 lg:gap-4"
+      >
+        <div class="img-container w-full h-1/2 lg:h-full lg:w-1/2 object-cover">
+          <picture class="lg:h-full w-full object-cover">
+            <source
+              media="(min-width: 1000px)"
+              srcset="./images/image-product-desktop.jpg"
+            />
+            <source
+              media="(max-width: 900px)"
+              srcset="./images/image-product-mobile.jpg"
+            />
+            <img
+              src="./images/image-product-desktop.jpg"
+              alt=""
+              class="h-full object-cover w-full"
+            />
+          </picture>
+        </div>
+        <div
+          class="info-container flex flex-col h-1/2 lg:h-full lg:w-1/2 justify-around p-2 lg:p-5 gap-2"
+        >
+          <div class="info-category">
+            <h3
+              class="text-base lg:text-lg uppercase font-medium tracking-wider font-['Montserrat'] text-[#3c8067]"
+            >
+              PERFUME
+            </h3>
+          </div>
+          <div class="info-heading">
+            <h1
+              class="text-2xl lg:text-7xl md:text-5xl font-bold font-['Fraunces'] text-[#1c232b]"
+            >
+              Gabrielle Essence Eau De Perfume
+            </h1>
+          </div>
+          <div class="info-desc">
+            <p
+              class="text-base lg:text-3xl md:text-3xl font-['Montserrat'] text-[#3c8067] opacity-75"
+            >
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+          </div>
+          <div
+            class="info-price flex items-center gap-4 font-['Montserrat'] text-[#3c8067]"
+          >
+            <h2 class="text-xl lg:text-5xl md:text-5xl">$149.99</h2>
+            <h3 class="text-xs lg:text-base"><strike>169.99</strike></h3>
+          </div>
+          <div
+            class="info-cart text-center bg-[#3c8067] p-2 lg:p-5 md:p-4 text-white rounded-xl text-xl font-['Montserrat']"
+          >
+            <a href="" class="btn flex justify-center gap-2">
+              <img src="./images/icon-cart.svg" alt="" />
+              <span>Add to Cart</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
