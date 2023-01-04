@@ -6,6 +6,12 @@
   --darkBlue: #1f3251;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--lightGray);
   font-family: "Outfit", sans-serif;
@@ -47,13 +53,15 @@ body {
   text-align: center;
 }
 .info-container h3 {
-  font-size: 1.3rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--darkBlue);
 }
 
 .info-container p {
-  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: var(--grayishBlue);
 }
