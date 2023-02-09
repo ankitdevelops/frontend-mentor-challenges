@@ -3,3 +3,4 @@
 - Product preview-card-component(Tailwind CSS) -- [Live Site](https://frontend-mentor-challenges-sooty.vercel.app/product-preview-card-component-tailwind/index.html)
 - qr-code-component(HTML & CSS) -- [Live](https://frontend-mentor-challenges-sooty.vercel.app/qr-code-component/index.html)
 - qr-code-component(Tailwind CSS) [Live](https://frontend-mentor-challenges-sooty.vercel.app/qr-code-component-tailwind/index.html)
+- Intro section with dropdown navigation [Live](https://frontend-mentor-challenges-sooty.vercel.app/intro-section-with-dropdown-navigation-main/index.html)
